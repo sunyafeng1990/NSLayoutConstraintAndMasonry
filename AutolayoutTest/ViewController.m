@@ -132,7 +132,7 @@
     UILayoutPriority priority = 250;//设置优先级
     orangeAnotherLeft.priority = priority;
     [self.view addConstraint:orangeAnotherLeft];
-    
+  
     /*
      我给orangeAnotherLeft这个约束添加了优先级，优先级的范围是0~1000，数字越大，优先级越高，在不设置的情况下默认为1000
      这说明了，我最后添加的这个约束的优先级是低的，这个约束只有在它的冲突约束被抹掉后，它才能实现
